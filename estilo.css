@@ -1,0 +1,86 @@
+body{
+    font-family: sans-serif;
+}
+
+.titulo{
+    text-align: center;
+    background-color: rgb(226, 226, 226);
+    padding: 10x;
+}
+
+/*=======================================*/
+.geral{
+    display: flex;
+    align-items: baseline;
+
+}
+
+.mae{
+    flex: 1;
+    background-color: rgb(156, 156, 156);
+    align-items: flex-start;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+/*======================================*/
+
+.linha{
+    flex: 1;
+    max-width: 200xp;
+    /*max-height: auto;*/
+    margin: 10px;
+    padding: 10px;
+    /*background-color: blue;*/
+
+}
+
+.linha div{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(199, 199, 199);
+}
+
+
+/*=======================================*/
+
+.coluna{
+    flex: 1;
+    max-width: 150px;
+    margin: 10px;
+    padding: 10px;
+    flex-direction: column;
+    text-align: center;
+    /*background-color: rgb(255, 0, 0);*/
+}
+
+.coluna div{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(104, 104, 104);
+}
+
+.texto{
+    flex: 3;
+    margin: 15px;
+    padding: 5px;
+    /*background-color: darkgoldenrod;*/
+}
+
+.sobre_mim{
+    padding: 15px;
+    flex: 1;
+}
+
+.sobre_mim div{
+    background-color: rgb(223, 223, 223);
+    padding: 5px;
+    margin: 2px;
+    flex: 1;
+}
+
+.rodape{
+    background-color: rgb(170, 170, 170);
+    padding: 10x;    
+}

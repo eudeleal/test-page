@@ -1,0 +1,85 @@
+body{
+    font-family: sans-serif;
+}
+
+.titulo{
+    text-align: center;
+    background-color: rgb(46, 224, 40);
+    padding: 10x;
+}
+
+/*=======================================*/
+.geral{
+    display: flex;
+    align-items: baseline;
+
+}
+
+.mae{
+    flex: 1;
+    background-color: rgb(121, 64, 64);
+    align-items: flex-start;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+/*======================================*/
+
+.linha{
+    flex: 1;
+    max-width: 200xp;
+    margin: 10px;
+    padding: 10px;
+    background-color: blue;
+
+}
+
+.linha div{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(217, 255, 0);
+}
+
+
+/*=======================================*/
+
+.coluna{
+    flex: 1;
+    max-width: 150px;
+    margin: 10px;
+    padding: 10px;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+}
+
+.coluna div{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(50, 141, 163);
+}
+
+.texto{
+    flex: 3;
+    margin: 5px;
+    text-align: center;
+    background-color: darkgoldenrod;
+}
+
+.sobre_mim{
+    padding: 15px;
+    flex: 1;
+}
+
+.sobre_mim div{
+    background-color: rgb(252, 0, 252);
+    padding: 5px;
+    margin: 2px;
+    flex: 1;
+}
+
+.rodape{
+    background-color: rgb(90, 165, 165);
+    padding: 10x;    
+}
